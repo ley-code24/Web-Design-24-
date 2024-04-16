@@ -1,0 +1,17 @@
+body {
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    color: #7b3434; 
+}
+
+h3 {
+    color: #666; 
+}
+
+.pdf {
+    display: block;
+    margin: 0 auto; 
+}

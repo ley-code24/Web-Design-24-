@@ -1,0 +1,35 @@
+
+.container {
+  display: grid;
+  grid-template-rows: 150px 400px 12px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.header { 
+  grid-column: 1/ -1;
+}
+
+.footer {
+ grid-column: 1/-1;
+}
+
+/* ignore everything below, add your code
+above */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+  font-size: 20px;
+}
+
+.header { background-color: darkmagenta;}
+.navbar { background-color: aqua;}
+.content { background-color:darkseagreen;}
+.footer { background-color: darkorange;}
+.article-1 { background-color: lightpink;}
+.article-2 { background-color: gold;}
+.article-3 { background-color: slateblue;}

@@ -1,0 +1,49 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header h1,h3{
+    text-align: center;
+    color: brown;
+}
+nav{
+    text-align: center;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    color: #333;
+}
+
+.header p {
+    color: #555;
+}
+
+.summary h2,
+.experience h2,
+.education h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.summary p,
+.experience p,
+.education p {
+    margin-bottom: 10px;
+}
+
+.experience p strong,
+.education p strong {
+    color: #333;
+}

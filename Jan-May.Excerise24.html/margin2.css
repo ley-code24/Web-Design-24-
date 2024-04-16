@@ -1,0 +1,12 @@
+.containter{
+    width:400px;
+    margin:40px auto;
+    padding:25px;
+    border:5px solid rgb(168,184,255);
+    background: color #f0f0f0;
+}
+.content{
+    background-color: #e0e0e0;
+    font-size: x-large;
+
+}

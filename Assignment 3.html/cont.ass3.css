@@ -1,0 +1,26 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #FFF2ED;
+    font-size: 18px;
+}
+header h1{
+    letter-spacing: 0.5em;
+    color: white;
+    text-align: center;
+    background-color: #8C5843;
+    font-weight: 300;
+}
+
+dt{
+   text-indent: 2em;
+}
+.attn{
+    text-transform: uppercase;
+    color: #2E54F6;
+}
+a{
+font-size: 16px;
+color: slategrey;
+text-decoration: none;
+}

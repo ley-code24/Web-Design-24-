@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+   
+  }
+  
+  /* Let's create our first overlay, a blue image. 
+  Do the following for our main: 
+  1. Configure the background to the "blue.jpg" image, 
+  2. Make the image cover the area with background-size: cover
+  3. Configure a height of 70vh*/
+  main {
+    background-image: url(blue.jpg);
+    background-size:cover;
+    height:70vh
+  } 
+  
+  /* 
+  On top of our image we have paragraphs.
+  Configure the following for your paragraphs: 
+  1. a width of 500px
+  2. background-color: rgba(255, 255, 255, 0.4)
+  3. padding of 20px for all sides 
+  4. margin of 30px for top and bottom
+  5. Center the paragraphs. Hint: auto */
+  p {
+    width:500px;
+    background-color: rgba(255, 255, 255, .4);
+    margin:30px auto;
+    padding: 20px
+  }
+  
+  /* The paragraphs are too close to the top of the page.
+  Give them some room by adding padding-top: 40px to the
+  div containing the paragraphs */
+  div {
+    padding-top: 40px;
+  }
+  
+  /* add a padding of 50px to the first paragraph */
+  .p-1 {
+    padding: 50px;
+  }
+  
+  /* The padding is NOT being included in the 500px width
+  causing the box to be too large. Fix it below:  
+  */
+   * {
+     box-sizing: border-box;
+   }

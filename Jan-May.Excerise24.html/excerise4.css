@@ -1,0 +1,15 @@
+P{
+    font-family: 'Courier New',"monospace";
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 1.6;
+
+}
+h1{
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+body{
+    text-align: center;
+    background-color: turquoise;
+}

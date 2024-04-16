@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* utilities */
+  .purple-hr {
+    border-bottom: 2px solid slateblue;
+    width: 150px;
+    margin: auto;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; /* get rid of space above */
+    padding: 0;
+  }
+  
+  /* header */
+  header {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 25px; /* add some padding to get rid of white space on top*/
+  }
+  
+  header h1 { 
+    font-size: 35px;
+  }
+  
+  h1, h3 {
+    font-weight: 400;
+    letter-spacing: 0.1em;
+  }
+  
+  /* nav bar in header element */
+  nav {
+    margin: 30px;
+  }
+  
+  a {
+    color: slateblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  a:hover, .active {
+    color: white;
+    background-color: slateblue;
+  }
+  
+  /* footer */
+  footer {
+    height: 100px;
+    background-color: slateblue;
+    color: white;
+  }
+  
+  footer h6 {
+    margin-top:0;
+    text-align: center;
+    padding-top: 45px;
+  }
+  
+  /* ========================== */
+  /* BELOW IS FOR products.html */
+  /* ========================== */
+  
+  
+  
+  
+  
+  /* ====================== */
+  /* BELOW IS FOR home.html */
+  /* ====================== */
+  /* main image */
+  .background-img {
+    background-image: url(computer.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* main header */
+  .main-header {
+    text-align: center;  
+    padding: 25px;
+  }
+  
+  .main-header h2, .main-header h6, .main-content h2 {
+    font-weight: 400;
+  }
+  
+  /* main content */
+  .main-content {
+    text-align: center;
+  }
+  
+  /* added this section to center our
+  h1 and image, need a width in order to
+  center ut all -- Remember, block elements
+  take up the entire line which is why we need 
+  a width to make the margin: auto work */
+  .main-intro {
+    width: 550px;
+    margin: auto;
+  }
+  
+  .main-content img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .main-content h1 {
+    font-family: monospace;
+    margin: 40px 0;
+    /* Add this to lower the text a bit */
+    padding-top: 130px;
+  }
+  
+  .main-content section {
+    width: 500px;
+    margin: 40px 20px;
+    box-shadow: 0px 5px 15px rgb(189, 187, 187);
+    padding: 30px;
+    border-radius: 5px;
+    /* Change the display to have the p elements on same line */
+    display: inline-block;
+    /* Add text align to stop it from centering 
+    due to text-align: center in .main-content above */
+    text-align: left;
+    background-color: white;
+  }
+  
+  .main-content h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: slateblue
+  }
+  
+  .main-content h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-top: 60px;
+  
+  }
+  
+  #main-info {
+    background-color: rgb(245, 243, 243);
+    padding-bottom: 20px;
+  }
+  
+  #main-products {
+    text-align: center;
+    padding: 70px;
+  }
+  
+  #main-products h3 {
+    margin-bottom: 40px;
+  }
+  
+  #main-products a {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: goldenrod;
+  }
+  
+  #main-products a:hover {
+    background-color: darkgoldenrod;
+  }
