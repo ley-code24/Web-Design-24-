@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #a68e8e;
+    color: #c3b2b2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    text-decoration: underline;
+    color: #c42f2f;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #c42f2f;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: large;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 0;
+    text-align: center;
+    font-size: large;
+}
+
+img {
+    max-width: 75%;
+    height:auto 
+}
+
+#about, p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(17, 16, 16);
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.image-container img {
+    max-width: 75%;
+    height: auto;
+}
+
+#contact { 
+    padding: 40px; 
+    text-align: center;
+    background-color: #c3b2b2;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: brown;
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.Containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Offerings {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 3px solid #695663;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(216, 30, 30, 0.1);
+}
+
+.Offerings img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Offerings h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.Offerings p {
+    color: #d06a33;
+}
